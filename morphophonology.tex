@@ -1,0 +1,60 @@
+\documentclass[draft,12pt]{book}
+
+\author{
+    Kyle Gorman 
+    \\ Center for Spoken Language Understanding 
+    \\ Oregon Health and Science University}
+\title{Latin morphophonology}
+
+% bibliography stuff
+\usepackage[sort&compress]{natbib}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+\usepackage{natbibspacing}
+\setlength{\bibspacing}{0.25\baselineskip}
+
+% includes
+\usepackage{booktabs}
+\usepackage{xypic}
+
+% symbols
+\newcommand{\zr}{$\emptyset$}
+\newcommand{\goesto}{$\longrightarrow$}
+
+% graphicy things
+\usepackage{amsmath}
+\usepackage{simplex} % mine...
+\usepackage{xyling}
+\usepackage[normalem]{ulem}
+
+% fonts
+\usepackage{mathspec}
+\setmainfont[Mapping=tex-text]{Linux Libertine}
+\setmathfont(Digits,Greek,Latin){Linux Libertine}
+
+\begin{document}
+
+\frenchspacing
+\maketitle
+\tableofcontents
+
+\include{00_Preface}
+
+\part{Preliminaries}
+\include{01_Introduction}
+\include{02_Tutorial}
+
+\part{The grammar}
+\include{03_Consonants}
+\include{04_Vowels}
+\include{05_Phonotactics}
+\include{06_Clitics}
+\include{07_Stress}
+
+\part{Applications}
+\include{08_Declension}
+\include{09_Conjugation}
+\include{10_Derivation}
+
+\bibstyle{pwpl}
+\bibliography{\jobname}
+\end{document}

@@ -1,0 +1,1007 @@
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  9 JAN 2013 08:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**morphophonology
+(./morphophonology.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count89
+)
+(./natbibspacing.sty
+\bibspacing=\dimen103
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen104
+\lightrulewidth=\dimen105
+\cmidrulewidth=\dimen106
+\belowrulesep=\dimen107
+\belowbottomsep=\dimen108
+\aboverulesep=\dimen109
+\abovetopsep=\dimen110
+\cmidrulesep=\dimen111
+\cmidrulekern=\dimen112
+\defaultaddspace=\dimen113
+\@cmidla=\count90
+\@cmidlb=\count91
+\@aboverulesep=\dimen114
+\@belowrulesep=\dimen115
+\@thisruleclass=\count92
+\@lastruleclass=\count93
+\@thisrulewidth=\dimen116
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypic.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xy.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
+catcodes, docmode,
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.8 <2012/05/24>
+ Copyright (c) 1991-2011 by Kristoffer H. Rose <krisrose@tug.org>
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen117
+\Y@c=\dimen118
+\U@c=\dimen119
+\D@c=\dimen120
+\L@c=\dimen121
+\R@c=\dimen122
+\Edge@c=\toks14
+\X@p=\dimen123
+\Y@p=\dimen124
+\U@p=\dimen125
+\D@p=\dimen126
+\L@p=\dimen127
+\R@p=\dimen128
+\Edge@p=\toks15
+\X@origin=\dimen129
+\Y@origin=\dimen130
+\X@xbase=\dimen131
+\Y@xbase=\dimen132
+\X@ybase=\dimen133
+\Y@ybase=\dimen134
+\X@min=\dimen135
+\Y@min=\dimen136
+\X@max=\dimen137
+\Y@max=\dimen138
+\lastobjectbox@=\box26
+\zerodotbox@=\box27
+\almostz@=\dimen139
+ direction,
+\d@X=\dimen140
+\d@Y=\dimen141
+\K@=\count94
+\KK@=\count95
+\Direction=\count96
+\K@dXdY=\dimen142
+\K@dYdX=\dimen143
+\xyread@=\read1
+\xywrite@=\write3
+\csp@=\count97
+\quotPTK@=\dimen144
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks16
+\connectobjectbox@@=\box28
+ objects,
+\styletoks@=\toks17
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+
+LaTeX Warning: You have requested package `xypic',
+               but the package provides `xy'.
+
+Package: xy 2012/05/24 Xy-pic version 3.8.8
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyv2.tex
+ Xy-pic option: Version 2 Compatibility v.3.8
+
+Xy-pic Warning: `\stop' redefined.
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14
+\Row=\count98
+\Col=\count99
+\queue@=\toks18
+\queue@@=\toks19
+\qcount@=\count100
+\qcount@@=\count101
+\matrixsize@=\count102
+ loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded) loaded))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen145
+)
+LaTeX Info: Redefining \text on input line 53.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen146
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count103
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count104
+\leftroot@=\count105
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count106
+\DOTSCASE@=\count107
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
+\dotsspace@=\muskip10
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
+\tag@help=\toks21
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
+\andhelp@=\toks22
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks23
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(./simplex.sty
+\c@exampleno=\count115
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/xyling/xyling.sty (/usr/local/t
+exlive/2012/texmf-dist/tex/generic/xypic/xy.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xy.tex not reloaded)
+Package: xy 2012/05/24 Xy-pic version 3.8.8
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xydvips.tex
+ Xy-pic option: DVIPS driver v.3.9 loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps.tex
+ Xy-pic option: PostScript backend v.3.12 drivers, hooks, loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xycolor.tex
+ Xy-pic option: Colour extension v.3.11
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps-c.tex
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps-s.tex)) loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyall.tex
+ Xy-pic option: All features v.3.8
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count116
+\crvpts@=\toks25
+\splinebox@=\box31
+\splineval@=\dimen154
+\splinedepth@=\dimen155
+\splinetol@=\dimen156
+\splinelength@=\dimen157
+ circles,
+\L@=\dimen158
+ loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.7
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.9 loaded) loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyline.tex
+ Xy-pic option: Line styles extension v.3.10
+\xylinethick@=\dimen159
+ loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xygraph.tex
+ Xy-pic option: Graph feature v.3.11 loaded) loaded))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xycrayon.tex
+ Xy-pic option: Crayola Colours v.3.7 loaded)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: xetex.def on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@PXcnt=\count117
+\TXTwidth=\skip48
+\GLOSSwidth=\skip49
+\PGwidth=\skip50
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box32
+\UL@hyphenbox=\box33
+\UL@skip=\skip51
+\UL@hook=\toks26
+\UL@height=\dimen160
+\UL@pe=\count118
+\UL@pixel=\dimen161
+\ULC@box=\box34
+Package: ulem 2012/05/18
+\ULdepth=\dimen162
+)
+(/usr/local/texlive/2012/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+Package: mathspec 2009/09/30 v0.2 LaTeX Package (Mathematics font selection for
+ XeLaTeX)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count119
+)
+\etb@tempcnta=\count120
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2012/05/06 v2.2b Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+)
+Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
+)
+Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2012/03/04 v3491 L3 Experimental basic definitions
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2012/03/04 v3490 L3 Experimental token lists
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2012/03/04 v3490 L3 Experimental integers
+\c_max_int=\count121
+\l_tmpa_int=\count122
+\l_tmpb_int=\count123
+\l_tmpc_int=\count124
+\g_tmpa_int=\count125
+\g_tmpb_int=\count126
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
+\g_prg_map_int=\count127
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2012/03/04 v3491 L3 Experimental token manipulation
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2012/03/04 v3490 L3 Experimental property lists
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2012/04/23 v3568 L3 Experimental messages
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count128
+\l_iow_line_length_int=\count129
+\l_iow_target_length_int=\count130
+\l_iow_current_line_int=\count131
+\l_iow_current_word_int=\count132
+\l_iow_current_indentation_int=\count133
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen163
+\l_tmpb_dim=\dimen164
+\l_tmpc_dim=\dimen165
+\g_tmpa_dim=\dimen166
+\g_tmpb_dim=\dimen167
+\l_tmpa_skip=\skip52
+\l_tmpb_skip=\skip53
+\l_tmpc_skip=\skip54
+\g_tmpa_skip=\skip55
+\g_tmpb_skip=\skip56
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count134
+\l_keys_choice_int=\count135
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
+\c_one_hundred_million=\count136
+\c_five_hundred_million=\count137
+\c_one_thousand_million=\count138
+\c_fp_pi_by_four_decimal_int=\count139
+\c_fp_pi_by_four_extended_int=\count140
+\c_fp_pi_decimal_int=\count141
+\c_fp_pi_extended_int=\count142
+\c_fp_two_pi_decimal_int=\count143
+\c_fp_two_pi_extended_int=\count144
+\l_fp_count_int=\count145
+\l_fp_div_offset_int=\count146
+\l_fp_exp_integer_int=\count147
+\l_fp_exp_decimal_int=\count148
+\l_fp_exp_extended_int=\count149
+\l_fp_exp_exponent_int=\count150
+\l_fp_input_a_sign_int=\count151
+\l_fp_input_a_integer_int=\count152
+\l_fp_input_a_decimal_int=\count153
+\l_fp_input_a_exponent_int=\count154
+\l_fp_input_b_sign_int=\count155
+\l_fp_input_b_integer_int=\count156
+\l_fp_input_b_decimal_int=\count157
+\l_fp_input_b_exponent_int=\count158
+\l_fp_input_a_extended_int=\count159
+\l_fp_input_b_extended_int=\count160
+\l_fp_mul_a_i_int=\count161
+\l_fp_mul_a_ii_int=\count162
+\l_fp_mul_a_iii_int=\count163
+\l_fp_mul_a_iv_int=\count164
+\l_fp_mul_a_v_int=\count165
+\l_fp_mul_a_vi_int=\count166
+\l_fp_mul_b_i_int=\count167
+\l_fp_mul_b_ii_int=\count168
+\l_fp_mul_b_iii_int=\count169
+\l_fp_mul_b_iv_int=\count170
+\l_fp_mul_b_v_int=\count171
+\l_fp_mul_b_vi_int=\count172
+\l_fp_mul_output_int=\count173
+\l_fp_output_sign_int=\count174
+\l_fp_output_integer_int=\count175
+\l_fp_output_decimal_int=\count176
+\l_fp_output_exponent_int=\count177
+\l_fp_output_extended_int=\count178
+\l_fp_round_position_int=\count179
+\l_fp_round_target_int=\count180
+\l_fp_split_sign_int=\count181
+\l_fp_internal_int=\count182
+\l_fp_trig_octant_int=\count183
+\l_fp_trig_sign_int=\count184
+\l_fp_trig_decimal_int=\count185
+\l_fp_trig_extended_int=\count186
+\l_fp_internal_dim=\dimen168
+\l_fp_internal_skip=\skip57
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2012/03/04 v3490 L3 Experimental boxes
+\l_tmpb_box=\box35
+\l_box_top_dim=\dimen169
+\l_box_bottom_dim=\dimen170
+\l_box_left_dim=\dimen171
+\l_box_right_dim=\dimen172
+\l_box_top_new_dim=\dimen173
+\l_box_bottom_new_dim=\dimen174
+\l_box_left_new_dim=\dimen175
+\l_box_right_new_dim=\dimen176
+\l_box_internal_box=\box36
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box37
+\l_coffin_internal_dim=\dimen177
+\l_coffin_offset_x_dim=\dimen178
+\l_coffin_offset_y_dim=\dimen179
+\l_coffin_x_dim=\dimen180
+\l_coffin_y_dim=\dimen181
+\l_coffin_x_prime_dim=\dimen182
+\l_coffin_y_prime_dim=\dimen183
+\l_coffin_Depth_dim=\dimen184
+\l_coffin_Height_dim=\dimen185
+\l_coffin_TotalHeight_dim=\dimen186
+\l_coffin_Width_dim=\dimen187
+\c_empty_coffin=\box38
+\l_coffin_aligned_coffin=\box39
+\l_coffin_aligned_internal_coffin=\box40
+\l_coffin_bounding_shift_dim=\dimen188
+\l_coffin_left_corner_dim=\dimen189
+\l_coffin_right_corner_dim=\dimen190
+\l_coffin_bottom_corner_dim=\dimen191
+\l_coffin_top_corner_dim=\dimen192
+\l_coffin_scaled_total_height_dim=\dimen193
+\l_coffin_scaled_width_dim=\dimen194
+\l_coffin_display_coffin=\box41
+\l_coffin_display_coord_coffin=\box42
+\l_coffin_display_pole_coffin=\box43
+\l_coffin_display_offset_dim=\dimen195
+\l_coffin_display_x_dim=\dimen196
+\l_coffin_display_y_dim=\dimen197
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count187
+\g_cctab_stack_int=\count188
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
+\l_xparse_current_arg_int=\count189
+\l_xparse_m_args_int=\count190
+\l_xparse_mandatory_args_int=\count191
+\l_xparse_processor_int=\count192
+\l_xparse_v_nesting_int=\count193
+)
+\l_fontspec_script_int=\count194
+\l_fontspec_language_int=\count195
+\l_fontspec_strnum_int=\count196
+\l_fontspec_tmpa_dim=\dimen198
+\l_fontspec_tmpb_dim=\dimen199
+\l_fontspec_tmpc_dim=\dimen200
+Variant \tl_gset:cV already defined; not changing it on line 66
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2012/05/06 v2.2b Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 29.
+LaTeX Info: Redefining \- on input line 32.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 107.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 111.
+.................................................
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2012/05/06 v2.2b Advanced font selection for XeLaTeX/Lu
+aLaTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/usr/local/texlive/2012/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu1lmss.fd
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count197
+\tipasavetokens=\toks27
+\tipachecktokens=\toks28
+LaTeX Info: Redefining \T on input line 1690.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks29
+)
+\Gin@req@height=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\Gin@req@width=\dimen256
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 39.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 43.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 47.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 51.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 59.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 62.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 68.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 84.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 87.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'm' on line
+. 91.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 118.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 132.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 164.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 192.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 211.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 485
+Variant \prop_gput:cnx already defined; not changing it on line 486
+\l_fontspec_tmp_int=\count198
+LaTeX Info: Redefining \itshape on input line 1893.
+LaTeX Info: Redefining \slshape on input line 1897.
+LaTeX Info: Redefining \scshape on input line 1901.
+LaTeX Info: Redefining \upshape on input line 1905.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+\XKV@depth=\count199
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+\c@eu@=\count200
+\c@eu@i=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\c@mkern=\count277
+)
+\g_fontspec_family_Linux Libertine_int=\count278
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinuxLibertine(0)' created for font 'Linux Libertine' with
+. options [Mapping=tex-text].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Linux Libertine/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Linux Libertine/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Linux Libertine/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Linux Libertine/B/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Linux Libertine/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Linux Libertine/I/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Linux Libertine/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Linux
+. Libertine/BI/ICU:script=latn;language=DFLT;mapping=tex-text;+smcp;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinuxLibertine(1)' created for font 'Linux Libertine' with
+. options [].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Linux Libertine/ICU:script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Linux Libertine/ICU:script=latn;language=DFLT;+smcp;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"Linux Libertine/B/ICU:script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Linux Libertine/B/ICU:script=latn;language=DFLT;+smcp;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"Linux Libertine/I/ICU:script=latn;language=DFLT;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"Linux Libertine/I/ICU:script=latn;language=DFLT;+smcp;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Linux Libertine/BI/ICU:script=latn;language=DFLT;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"Linux Libertine/BI/ICU:script=latn;language=DFLT;+smcp;"
+.................................................
+\symDigits:m:n=\mathgroup4
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinuxLibertine(1)' created for font 'Linux Libertine' with
+. options [].
+. 
+. This font family consists of the following shapes:
+.................................................
+\symGreek:m:n=\mathgroup5
+\symGreek:m:it=\mathgroup6
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinuxLibertine(1)' created for font 'Linux Libertine' with
+. options [].
+. 
+. This font family consists of the following shapes:
+.................................................
+\symLatin:m:n=\mathgroup7
+\symLatin:m:it=\mathgroup8
+
+(./morphophonology.aux (./00_Preface.aux) (./01_Introduction.aux)
+(./02_Tutorial.aux) (./03_Consonants.aux) (./04_Vowels.aux)
+(./05_Phonotactics.aux) (./06_Clitics.aux) (./07_Stress.aux)
+(./08_Declension.aux) (./09_Conjugation.aux) (./10_Derivation.aux))
+\openout1 = `morphophonology.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 34.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 34.
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps-ps.tex)
+
+Xy-pic Warning: The produced DVI file is NOT PORTABLE [morphophonology:34]:
+ It contains <driver> `dvips' \specials for the `PostScript' extension.
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps-pro.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypspatt.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xypsdict.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps-col.tex) PS relaxed
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps-r.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps-l.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xypic/xyps-f.tex) [1
+
+
+]
+LaTeX Font Info:    Font shape `EU1/LinuxLibertine(0)/m/sl' in size <12> not av
+ailable
+(Font)              Font shape `EU1/LinuxLibertine(0)/m/it' tried instead on in
+put line 38.
+ [2
+
+]
+(./morphophonology.toc [3] [4])
+\tf@toc=\write4
+\openout4 = `morphophonology.toc'.
+
+ [5]
+\openout2 = `00_Preface.aux'.
+
+ (./00_Preface.tex [6
+
+
+]
+
+LaTeX Warning: Reference `?' on page 7 undefined on input line 10.
+
+) [7] [8
+
+
+] [9] [10]
+\openout2 = `01_Introduction.aux'.
+
+ (./01_Introduction.tex
+Chapter 1.
+
+Package natbib Warning: Citation `Allen1976' on page 11 undefined on input line
+ 7.
+
+
+Package natbib Warning: Citation `Sommer1902' on page 11 undefined on input lin
+e 9.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11
+
+
+]
+
+Package natbib Warning: Citation `Siegel1974' on page 12 undefined on input lin
+e 38.
+
+
+Package natbib Warning: Citation `Aronoff1976' on page 12 undefined on input li
+ne 38.
+
+) [12] [13]
+\openout2 = `02_Tutorial.aux'.
+
+ (./02_Tutorial.tex [14
+
+
+
+]
+Chapter 2.
+) [15] [16
+
+
+] [17] [18]
+\openout2 = `03_Consonants.aux'.
+
+ (./03_Consonants.tex
+Chapter 3.
+) [19
+
+
+]
+\openout2 = `04_Vowels.aux'.
+
+ (./04_Vowels.tex [20
+
+
+
+]
+Chapter 4.
+) [21]
+\openout2 = `05_Phonotactics.aux'.
+
+ (./05_Phonotactics.tex [22
+
+
+
+]
+Chapter 5.
+
+Package natbib Warning: Citation `Sommerstein1974' on page 23 undefined on inpu
+t line 3.
+
+) [23]
+\openout2 = `06_Clitics.aux'.
+
+ (./06_Clitics.tex [24
+
+
+
+]
+Chapter 6.
+) [25]
+\openout2 = `07_Stress.aux'.
+
+ (./07_Stress.tex [26
+
+
+
+]
+Chapter 7.
+) [27] [28
+
+
+] [29] [30]
+\openout2 = `08_Declension.aux'.
+
+ (./08_Declension.tex
+Chapter 8.
+) [31
+
+
+]
+\openout2 = `09_Conjugation.aux'.
+
+ (./09_Conjugation.tex [32
+
+
+
+]
+Chapter 9.
+) [33]
+\openout2 = `10_Derivation.aux'.
+
+ (./10_Derivation.tex [34
+
+
+
+]
+Chapter 10.
+) [35] (./morphophonology.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+(./morphophonology.aux (./00_Preface.aux) (./01_Introduction.aux)
+(./02_Tutorial.aux) (./03_Consonants.aux) (./04_Vowels.aux)
+(./05_Phonotactics.aux) (./06_Clitics.aux) (./07_Stress.aux)
+(./08_Declension.aux) (./09_Conjugation.aux) (./10_Derivation.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 18897 strings out of 494004
+ 363150 string characters out of 3150890
+ 431863 words of memory out of 3000000
+ 21795 multiletter control sequences out of 15000+200000
+ 11080 words of font info for 76 fonts, out of 3000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 50i,6n,49p,848b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on morphophonology.pdf (35 pages).
