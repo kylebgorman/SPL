@@ -1,6 +1,6 @@
 TEX=xelatex -halt-on-error
 BIB=bibtex
-JOBNAME=morphophonology
+JOBNAME=SPL
 
 all:
 	$(TEX) $(JOBNAME)
@@ -12,6 +12,7 @@ bib:
 
 clean:
 	latexmk -C
+	rm $(JOBNAME).bbl
 
 show:
 	open $(JOBNAME).pdf

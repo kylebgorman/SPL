@@ -1,0 +1,69 @@
+\documentclass[draft,12pt]{book}
+
+% bibliography stuff
+\usepackage[sort&compress]{natbib}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+% includes
+\usepackage{booktabs}
+\usepackage{xypic}
+
+% symbols
+\newcommand{\zr}{$\emptyset$}
+\newcommand{\goesto}{$\longrightarrow$}
+
+% graphicy things
+\usepackage{amsmath}
+\usepackage{simplex} % mine...
+%\usepackage{xyling}
+\usepackage[normalem]{ulem}
+
+% fonts
+\usepackage{mathspec}
+\setmainfont[Mapping=tex-text]{Linux Libertine}
+\setmathfont(Digits,Greek,Latin){Linux Libertine}
+
+\title{The sound pattern of {Latin}}
+\author{Kyle Gorman}
+% \\ Center for Spoken Language Understanding \\ Oregon Health \& Science University \\ Portland, OR, USA \\ \texttt{gormanky@ohsu.edu}}
+\date{}
+
+% dedication environment
+\newenvironment{dedication}%
+{\thispagestyle{empty}\cleardoublepage\thispagestyle{empty}\vspace*{\stretch{1}}\hfill\begin{minipage}[t]{0.66\textwidth}\raggedright}%
+{\end{minipage}\vspace*{\stretch{3}}\clearpage\thispagestyle{empty}}
+
+\begin{document}
+\frontmatter
+\maketitle
+\begin{dedication}
+To the fairest\ldots{}
+\end{dedication}
+\tableofcontents
+\include{00_Preface}
+
+\mainmatter
+\part{Preliminaries}
+\include{01_Introduction}
+\include{02_Tutorial}
+\part{Segmental phonology}
+\include{03_Consonants}
+\include{04_Vowels}
+\part{Prosodic phonology}
+\include{05_Stress}
+\include{06_Phonotactics}
+\include{07_Phrasal_Phonology}
+\part{Morphophonology}
+\include{08_Declension}
+\include{09_Conjugation}
+\include{10_Derivation}
+
+\appendix
+\include{A_Word_Index}
+\include{B_Subject_Index}
+
+\backmatter
+\bibliographystyle{pwpl}
+\bibliography{\jobname}
+
+\end{document}
