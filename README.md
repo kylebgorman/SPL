@@ -1,1 +1,1 @@
-This is a draft for a book tentatively entitled "The Sound Pattern of Latin".
+This is a draft for a monograph entitled "The Sound Pattern of Latin".

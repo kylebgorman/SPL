@@ -1,22 +1,29 @@
 \documentclass[draft,12pt]{book}
 
 % bibliography stuff
-\usepackage[sort&compress]{natbib}
+\usepackage{natbib}
 \bibpunct[:]{(}{)}{,}{a}{}{,}
+\usepackage[makeindex]{splitidx}
+% shorthand
+\newcommand{\OLD}[1]{(\emph{OLD}:#1)}%
 
-% includes
+% create indexes
+\newindex[Author index]{author}
+\newindex[Subject index]{subject}
+\newindex[Word index]{word}
+
+% other includes
 \usepackage{booktabs}
-\usepackage{xypic}
+\usepackage{xy}
+\usepackage{amsmath}
+\usepackage{simplex} % my example environment...
+\usepackage[normalem]{ulem}
 
 % symbols
 \newcommand{\zr}{$\emptyset$}
 \newcommand{\goesto}{$\longrightarrow$}
 
 % graphicy things
-\usepackage{amsmath}
-\usepackage{simplex} % mine...
-%\usepackage{xyling}
-\usepackage[normalem]{ulem}
 
 % fonts
 \usepackage{mathspec}
@@ -33,6 +40,7 @@
 {\thispagestyle{empty}\cleardoublepage\thispagestyle{empty}\vspace*{\stretch{1}}\hfill\begin{minipage}[t]{0.66\textwidth}\raggedright}%
 {\end{minipage}\vspace*{\stretch{3}}\clearpage\thispagestyle{empty}}
 
+\makeindex
 \begin{document}
 \frontmatter
 \maketitle
@@ -40,30 +48,34 @@
 To the fairest\ldots{}
 \end{dedication}
 \tableofcontents
-\include{00_Preface}
+\addcontentsline{toc}{chapter}{Preface}
+\include{00_Preface-IDX}
 
 \mainmatter
+\nocite{OLD}
 \part{Preliminaries}
-\include{01_Introduction}
-\include{02_Tutorial}
+\include{01_Introduction-IDX}
+\include{02_Tutorial-IDX}
 \part{Segmental phonology}
-\include{03_Consonants}
-\include{04_Vowels}
+\include{03_Consonants-IDX}
+\include{04_Vowels-IDX}
 \part{Prosodic phonology}
-\include{05_Stress}
-\include{06_Phonotactics}
-\include{07_Phrasal_Phonology}
+\include{05_Stress-IDX}
+\include{06_Phonotactics-IDX}
+\include{07_Phrasal-IDX}
 \part{Morphophonology}
-\include{08_Declension}
-\include{09_Conjugation}
-\include{10_Derivation}
-
-\appendix
-\include{A_Word_Index}
-\include{B_Subject_Index}
+\include{08_Declension-IDX}
+\include{09_Conjugation-IDX}
+\include{10_Derivation-IDX}
 
 \backmatter
-\bibliographystyle{pwpl}
 \bibliography{\jobname}
+\bibliographystyle{pwpl}
+\addcontentsline{toc}{chapter}{Author index}
+\printindex[author]
+\addcontentsline{toc}{chapter}{Subject index}
+\printindex[subject]
+\addcontentsline{toc}{chapter}{Word index}
+\printindex[word]
 
 \end{document}
