@@ -5,17 +5,19 @@ INDEXIFY=./indexify.py
 
 JOBNAME=SPL
 
-all:
-	$(TEX) $(JOBNAME)
+all: idx bib
 
 idx:
 	$(RM) [01]*-IDX.tex
 	python indexify.py [01]*.tex
+	$(TEX) $(JOBNAME)
 	splitindex $(JOBNAME)
 	$(TEX) -interaction=batchmode $(JOBNAME)
 
-bib: 
+bib:
 	$(BIB) $(JOBNAME)
+	cat $(JOBNAME).bbl | sed -e 's!?\\/}\.!?\\/}!' > TEMP
+	mv TEMP $(JOBNAME).bbl
 	$(TEX) -interaction=batchmode -no-pdf $(JOBNAME)
 	$(TEX) -interaction=batchmode $(JOBNAME)
 

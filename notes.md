@@ -1,3 +1,15 @@
+Hiatic shortening
+=================
+
+* \emph{vocalis ante vocalem corriptur}
+* Moraic interpretation due to Zirin 1970
+
+Hiatus or diphthong?
+====================
+
+* At least a claim that rising sonority sequences were always hiatic...
+* Meadows 1946, 1948 also
+
 A line with lots of dactyls
 ===========================
 

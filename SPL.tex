@@ -12,9 +12,12 @@
 \newindex[Subject index]{subject}
 \newindex[Word index]{word}
 
+% Date for the documentDate for the documentDate for the documentDate for the document
+\usepackage{datetime}
+
 % other includes
-\usepackage{booktabs}
 \usepackage{xy}
+\usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{simplex} % my example environment...
 \usepackage[normalem]{ulem}
@@ -31,9 +34,9 @@
 \setmathfont(Digits,Greek,Latin){Linux Libertine}
 
 \title{The Sound Pattern of Latin}
-\author{Kyle Gorman}
-% \\ Center for Spoken Language Understanding \\ Oregon Health \& Science University \\ Portland, OR, USA \\ \texttt{gormanky@ohsu.edu}}
-\date{}
+\author{Kyle Gorman
+\\ Center for Spoken Language Understanding \\ Oregon Health \& Science University \\ Portland, OR, USA \\ \texttt{gormanky@ohsu.edu}}
+\date{\monthname~\the\year}
 
 % dedication environment
 \newenvironment{dedication}%
