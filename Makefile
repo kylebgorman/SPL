@@ -15,6 +15,7 @@ idx:
 	$(TEX) -interaction=batchmode $(JOBNAME)
 
 bib:
+	ln -f ~/Documents/Other/TeX/kgorman.bib $(JOBNAME).bib
 	$(BIB) $(JOBNAME)
 	cat $(JOBNAME).bbl | sed -e 's!?\\/}\.!?\\/}!' > TEMP
 	mv TEMP $(JOBNAME).bbl
@@ -23,9 +24,7 @@ bib:
 
 clean:
 	latexmk -C
-	$(RM) [01]*-IDX.tex 
-	$(RM) $(JOBNAME).bbl $(JOBNAME).xdv
-	$(RM) *.idx *.ilg *.ind
+	$(RM) $(JOBNAME).bbl $(JOBNAME).xdv [01]*-IDX.tex *.idx *.ilg *.ind
 
 show:
 	open $(JOBNAME).pdf

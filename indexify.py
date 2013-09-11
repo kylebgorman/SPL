@@ -74,8 +74,10 @@ if __name__ == '__main__':
             offset = 0
             for match in EMPHED.finditer(line):
                 word = match.group(1)
-                if word in stop:
+                if word in stop or any(c in {' ', '-'} for c in word):
                     continue
+                #if '-' in word:
+                #    word = word.replace('-', '')
                 end = match.end()
                 label = list('\sindex[' + WORD + ']{' + word + '}')
                 newlist = newlist[:end + offset] + label + \
@@ -89,7 +91,6 @@ if __name__ == '__main__':
                 keys = match.group(3)
                 end = match.end()
                 for key in keys.split(','):
-                    print key
                     for author in bib[key]:
                         label = list('\sindex[' + AUTHOR + ']{' + \
                                 authorproc(author))

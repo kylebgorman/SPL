@@ -1,24 +1,32 @@
 # oblique
+asōtum
 pedis
 tūris
 # Greek
 idiōta
+mūsicē
 # irrelevant
+ad
 pietās
 virgō
-Lēx Mamilla
-sine qua nōn
-magnum opus
-# terms
+# titles or names
 Virgil
 Aeneid
 Pseudolus
+Satires
+# prefixes
+ad
+per
 # letters
 a
+ae
+au
 b
 c
 d
 e
+ei
+eu
 f
 g
 h
@@ -29,20 +37,20 @@ l
 m
 n
 o
+oe
 p
 q
+qu
 r
 s
 t
 u
+ui
 v
 w
 x
 y
 z
 # titles
-Cours de linguistique générale
 Language
 Phonology
-The sound pattern of English
-Vox Latina

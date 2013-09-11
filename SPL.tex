@@ -1,5 +1,7 @@
 \documentclass[draft,12pt]{book}
 
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
 % bibliography stuff
 \usepackage{natbib}
 \bibpunct[:]{(}{)}{,}{a}{}{,}
@@ -23,6 +25,7 @@
 \usepackage[normalem]{ulem}
 
 % symbols
+\newcommand{\pad}{\hspace{0pt}}
 \newcommand{\zr}{$\emptyset$}
 \newcommand{\goesto}{$\longrightarrow$}
 
@@ -76,9 +79,9 @@ To the fairest\ldots{}
 \bibliographystyle{pwpl}
 \addcontentsline{toc}{chapter}{Author index}
 \printindex[author]
-\addcontentsline{toc}{chapter}{Subject index}
-\printindex[subject]
 \addcontentsline{toc}{chapter}{Word index}
 \printindex[word]
+\addcontentsline{toc}{chapter}{Subject index}
+\printindex[subject]
 
 \end{document}
