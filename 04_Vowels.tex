@@ -1,10 +1,75 @@
 \chapter{Vowels and glides}
 \label{vowels}
 
-\section{Inventory}
+This chapter investigates phenomena involving the vocalic segments, vowels and glides.
+The following sections consider the inventory (\S\ref{4:inventory}), the relationship between vowels and glides (\S\ref{4:vowel-glide-alternations}), alternations modifying vowel height (\S\ref{4:height-alternations}, and vowel insertion (\S\ref{4:epenthesis}) and deletion (\S\ref{4:truncation}).
 
-\section{Diphthongs}
+\section{Inventory}
+\label{4:inventory}
+
+\subsection{Monophthongs}
+\sindex[subject]{Monophthongs}
+
+Latin vowels are traditionally divided into two classes, consisting of monophthongs and diphthongs.
+The ten monophthongs represent a traditional five-vowel system, with short and long variants at each of the five positions.
+The following examples demonstrate that length is lexically contrastive.
+%Chapter \ref{declension} demonstrates that monophthong length also plays a role in declension.
+
+\begin{example}[Contrastive monophthong length]
+\begin{tabular}{l c ll c ll}
+
+a. && \emph{malus}  & `bad`             && \emph{mālus}  & `apple tree`  \\
+b. && \emph{levis}  & `light in weight' && \emph{lēvis}  & `smooth' \\
+c. && \emph{pila}   & `ball'            && \emph{pīla}   & `mortar' \\
+d. && \emph{os}     & `bone'            && \emph{ōs}     & `mouth'  \\
+e. && \emph{luteus} & `muddy'           && \emph{lūteus} & `yellow'
+\end{tabular}
+\end{example}
+
+Regarding vowel position, there is a three-way height distinction in the back vowels and a two-way distinction in the front vowels; there is no low front vowel.
+The height and backness contrasts can be expressed as a system of features, as in (\ref{4:monophthong-features}).
+
+\begin{example}[Monophthong inventory]
+\label{4:monophthong-features}
+\begin{tabular}{l cc}
+                                          & [$-$\textsc{back}] & [$+$\textsc{back}] \\
+\cmidrule{2-3}
+\pad{}[$+$\textsc{high}, $-$\textsc{low}] & \emph{i}, \emph{ī} & \emph{u}, \emph{ū} \\
+\pad{}[$-$\textsc{high}, $-$\textsc{low}] & \emph{e}, \emph{ē} & \emph{o}, \emph{ō} \\
+\pad{}[$-$\textsc{high}, $+$\textsc{low}] &                    & \emph{a}, \emph{ā} \\
+\end{tabular}
+\end{example}
+
+Some comments by Latin grammarians suggest that short \emph{i} and \emph{u} were just shorter than \emph{ī} and \emph{ū}, but were also somewhat lower
+\citep[48f.]{Allen1978}.
+
+The Greek letter $\langle$Υ$\rangle$ was usually romanized (and presumably pronounced as) \emph{u}: e.g.,
+???
+however, some marginal borrowings from Greek were written with \emph{y}, in which case it may have been read as the high front rounded vowel [y].
+
+%\section{The long vowels}
+%k\sindex[subject]{Long vowels}
+
+%\subsection{Long monophthongs}
+%\sindex[subject]{Monophthongs}
+
+% FIXME explain how to encode length
+
+\subsection{Diphthongs}
 \sindex[subject]{Diphthongs}
+
+productive and those which are not.
+
+Of these, 
+all but two---\emph{ae} [aj] and \emph{au} [aw]---are found in no more than a handful of words.
+The diphthong \emph{eu} [eu] occurs in the interjections \emph{heu} `alas!' and \emph{heus} `hey!', the contractions \emph{ceu} `??' ($<$ \emph{ci-ve}) \emph{neu} `??' ($<$ \emph{ni-ve}), and \emph{seu} `??' ($<$ \emph{si-ve}), and a few Greek borrowings (e.g., \emph{eunuchus} `eunuch').
+The diphthong \emph{oe} [oe] merged with \emph{u} in the pre-Classical period, but persists in a few words (e.g., \emph{poena} `punishment').
+The word \emph{prout} `insofar', historically a contraction *\emph{pro-ut}, is the only source of \emph{ou} [ou].
+Finally, $\langle$VI$\rangle$ only in 
+\emph{uj} 
+
+\subsection{Glides}
+\sindex[subject]{Glides}
 
 \section{Vowel-glide alternations}
 \sindex[subject]{Vowel-glide alternations!Vocalization}
@@ -17,16 +82,16 @@
 
 \begin{example}[Surface glides]
 \vspace{\baselineskip}
-\begin{tabular}{l ll l ll l ll l ll}
+\begin{tabular}{l c ll c ll c ll c ll}
 %a. & \emph{jocus}   & `jest'       && \emph{vōtum}  & `prayer, vow'         \\
 %   & \emph{jecur}   & `liver'      && \emph{vīnea}  & `vineyard'            \\
 %%  & \emph{jactāre} & `to throw'   && \emph{vacāre} & `to be empty'         \\
 %%  & \emph{jubēre}  & `to command' && \emph{virēre} & `to sprout, flourish' \\
 %  & \emph{jubēre}  & `to command' && \emph{vacāre} & `to be empty'         \\
-a. & \emph{jocus}    & `jest'      && \emph{jecur}  & `liver'     && \emph{jubēre} & `to command' \\
-   & \emph{vōtum}    & `vow'       && \emph{vīnea}  & `vineyard'  && \emph{vacēre} & `to be empty' \\
-b. & \emph{plēbējus} & 'plebeian'  && \emph{Mājus}  & `May'       && \emph{mejere} & `to urinate' \\
-   & \emph{naevus}   & `birthmark' && \emph{clāva}  & `cudgel'    && \emph{novāre} & `to renew' \\
+a. && \emph{jocus}    & `jest'      && \emph{jecur}  & `liver'     && \emph{jubēre} & `to command' \\
+   && \emph{vōtum}    & `vow'       && \emph{vīnea}  & `vineyard'  && \emph{vacēre} & `to be empty' \\
+b. && \emph{plēbējus} & 'plebeian'  && \emph{Mājus}  & `May'       && \emph{mejere} & `to urinate' \\
+   && \emph{naevus}   & `birthmark' && \emph{clāva}  & `cudgel'    && \emph{novāre} & `to renew' \\
 \end{tabular}
 \end{example}
 
@@ -51,11 +116,10 @@ other diphthongs:
 \citet{Devine1977}
 
 \section{Height alternations}
-\sindex[subject]{Height alternations}
 \sindex[subject]{Height alternations!Lowering}
-
-\section{Truncation}
-\sindex[subject]{Truncation}
 
 \section{Epenthesis}
 \sindex[subject]{Epenthesis}
+
+\section{Truncation}
+\sindex[subject]{Truncation}

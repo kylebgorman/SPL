@@ -24,7 +24,7 @@ bib:
 
 clean:
 	latexmk -C
-	$(RM) $(JOBNAME).bbl $(JOBNAME).xdv [01]*-IDX.tex *.idx *.ilg *.ind
+	$(RM) $(JOBNAME).bbl $(JOBNAME).xdv [01]*-IDX.tex *.idx *.ilg *.ind *.aux
 
 show:
 	open $(JOBNAME).pdf

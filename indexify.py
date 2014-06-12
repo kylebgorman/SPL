@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python -O
 # encoding: UTF-8
 # Insert word and author index information
 # Kyle Gorman <gormanky@ohsu.edu>
@@ -91,6 +91,9 @@ if __name__ == '__main__':
                 keys = match.group(3)
                 end = match.end()
                 for key in keys.split(','):
+                    # is an editor, not an author
+                    if key not in bib:
+                        continue
                     for author in bib[key]:
                         label = list('\sindex[' + AUTHOR + ']{' + \
                                 authorproc(author))

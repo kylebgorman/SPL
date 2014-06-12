@@ -20,7 +20,7 @@ A line with lots of spondees
 ============================
 
 |im.mu:|nem/to:|to:mul|ti:/prae|sta:bimus|aiwo:|
-immūnem     tōtō   multī   praestābimus   aevō                 (\emph{Pharsalia}, VI.764)
+immūnem     tōtō   multī   praestābimus   aevō    (\emph{Pharsalia}, VI.764)
 
 Hypermeter
 ==========
@@ -35,4 +35,4 @@ Elision
 Writing
 =======
 
-* Two oft-discussed characteristics of classical poetry which are of limited relevance to phonological analysis are \emph{caesura}, which refers to a pause between words, and \emph{ictus}, or the ``beat'' associated with the most prominent syllable of a metrical foot---in dactylic hexameter the first syllable---which need not coincide with word stress.
+* Two oft-discussed characteristics of classical poetry which are of limited relevance to phonological analysis are \emph{caesura}, which refers to a pause between words found mid-verse, and \emph{ictus}, the ``beat'' associated with the most prominent position of a metrical foot (in dactylic metres, the first syllable)---classical poets sought to construct lines so that ictus and word stress were opposed.

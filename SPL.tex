@@ -1,6 +1,6 @@
 \documentclass[draft,12pt]{book}
 
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 % bibliography stuff
 \usepackage{natbib}
@@ -29,7 +29,12 @@
 \newcommand{\zr}{$\emptyset$}
 \newcommand{\goesto}{$\longrightarrow$}
 
-% graphicy things
+% fixed-width columns: see http://tex.stackexchange.com/questions/12703/
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% final floats FIXME
+%\usepackage[nofiglist,notablist]{endfloat}
 
 % fonts
 \usepackage{mathspec}
@@ -37,8 +42,8 @@
 \setmathfont(Digits,Greek,Latin){Linux Libertine}
 
 \title{The Sound Pattern of Latin}
-\author{Kyle Gorman
-\\ Center for Spoken Language Understanding \\ Oregon Health \& Science University \\ Portland, OR, USA \\ \texttt{gormanky@ohsu.edu}}
+\author{Kyle Gorman}
+%\\ Center for Spoken Language Understanding \\ Oregon Health \& Science University \\ Portland, OR, USA \\ \texttt{gormanky@ohsu.edu}}
 \date{\monthname~\the\year}
 
 % dedication environment
@@ -50,9 +55,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\begin{dedication}
-To the fairest\ldots{}
-\end{dedication}
+\begin{dedication}To the fairest\ldots{}\end{dedication}
 \tableofcontents
 \addcontentsline{toc}{chapter}{Preface}
 \include{00_Preface-IDX}
@@ -68,11 +71,10 @@ To the fairest\ldots{}
 \part{Prosodic phonology}
 \include{05_Stress-IDX}
 \include{06_Phonotactics-IDX}
-\include{07_Phrasal-IDX}
 \part{Morphophonology}
-\include{08_Declension-IDX}
-\include{09_Conjugation-IDX}
-\include{10_Derivation-IDX}
+\include{07_Declension-IDX}
+\include{08_Conjugation-IDX}
+\include{09_Derivation-IDX}
 
 \backmatter
 \bibliography{\jobname}
